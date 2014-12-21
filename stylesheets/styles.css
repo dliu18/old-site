@@ -21,7 +21,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:35px;
 }
 
 h2 {
@@ -96,7 +96,7 @@ img {
 }
 
 header {
-  width:270px;
+  width:200px;
   float:left;
   position:fixed;
 }
@@ -160,7 +160,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:570px;
   float:right;
   padding-bottom:50px;
 }
@@ -180,7 +180,7 @@ footer {
   width:270px;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:75px;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -229,6 +229,7 @@ footer {
   
   header ul, header p.view {
     position:static;
+	font-size: 40px;
   }
   
   pre, code {
