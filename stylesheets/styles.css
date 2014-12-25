@@ -19,6 +19,12 @@ p, ul, ol, table, pre, dl {
 p.header{
 font-size:20px;
 font-style: bold;
+color: #19D119;
+}
+
+p.intro{
+font: 25px;
+font-style:bold;
 }
 
 h1, h2, h3 {
@@ -28,6 +34,7 @@ h1, h2, h3 {
 h1 {
   font-size:35px;
   font-style: bold;
+  margin:0 0 10px;
 }
 
 h2 {
@@ -49,6 +56,10 @@ a small {
   color:#777;
   margin-top:-0.6em;
   display:block;
+}
+
+a:hover img {
+
 }
 
 .wrapper {
@@ -168,6 +179,7 @@ header ul a strong {
 section {
   width:570px;
   float:right;
+  padding-top: 20px; 
   padding-bottom:50px;
 }
 
