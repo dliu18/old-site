@@ -3,7 +3,7 @@
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  color:black;
   font-weight:300;
 }
 
@@ -23,7 +23,7 @@ color: #19D119;
 }
 
 p.intro{
-font: 25px;
+font: 30px;
 font-style:bold;
 }
 
@@ -59,13 +59,9 @@ a small {
 }
 
 a:hover img {
-
+outline: black dotted thin;
 }
 
-.wrapper {
-  width:860px;
-  margin:0 auto;
-}
 
 blockquote {
   border-left:1px solid #e5e5e5;
@@ -111,6 +107,7 @@ th {
 img {
   max-width:100%;
 }
+
 
 header {
   width:200px;
@@ -177,10 +174,11 @@ header ul a strong {
 }
 
 section {
-  width:570px;
   float:right;
-  padding-top: 20px; 
+  padding-top: 10px; 
   padding-bottom:50px;
+  padding-left: 250px;
+  padding-right: 20px;
 }
 
 small {
@@ -195,13 +193,15 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:200px;
   float:left;
   position:fixed;
   bottom:50px;
 }
 
-@media print, screen and (max-width: 960px) {
+
+
+@media print, screen and (max-width: 960px ) {
   
   div.wrapper {
     width:auto;
@@ -233,7 +233,8 @@ footer {
     position:absolute;
     right:50px;
     top:52px;
-  }
+  }  
+
 }
 
 @media print, screen and (max-width: 720px) {
