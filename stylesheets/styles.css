@@ -27,6 +27,14 @@ font: 30px;
 font-style:bold;
 }
 
+p.content{
+font-size:15px;
+line-height: 120%;
+}
+
+p.small{
+font-size: 10px;
+text-align: center}
 h1, h2, h3 {
   line-height:1.1;
 }
